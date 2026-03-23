@@ -352,7 +352,13 @@ class Ui_MainWindow(object):
         self.visible_rows = []
         search_text = self.SearchE.text()
         for i in range(len(values)):
-            if search_text in str(values[i][1]) or search_text in str(values[i][2]) or search_text in str(values[i][5]) or search_text in str(values[i][6]) or search_text in str(values[i][7]) or search_text in str(values[i][8]) or search_text in str(values[i][9]):
+            if search_text in str(values[i][1]) or \
+            search_text in str(values[i][2]) or \
+            search_text in str(values[i][5]) or \
+            search_text in str(values[i][6]) or \
+            search_text in str(values[i][7]) or \
+            search_text in str(values[i][8]) or \
+            search_text in str(values[i][9]):
                 if values[i][11]==status:
                     self.NameList.addItem(values[i][1])
                     self.StatusList.addItem(values[i][11])
