@@ -200,7 +200,7 @@ class Ui_MainWindow(object):
         self.Scereens.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self, MainWindow):*
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "CRM for NEXT Goa"))
         self.LogTitle.setText(_translate("MainWindow", "Login"))
@@ -258,6 +258,7 @@ class Ui_MainWindow(object):
 
     def pending(self):
         global values, status
+        self.SaveConfirm.setText("")
         self.ConTitle.setText("You are now in: pending")
         self.HelpS.setText("You can search for pending contacts with name, phone number, or email")
         self.menubar.clear()
