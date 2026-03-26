@@ -556,6 +556,7 @@ class Ui_MainWindow(object):
         self.SecondaryParentNumE.setText(str(selected_row[9]))
         self.FilledFromE.setText(str(selected_row[10]))
         self.update()
+        # Testin
         try:
             self.SaveBT1.clicked.disconnect()
         except TypeError:
