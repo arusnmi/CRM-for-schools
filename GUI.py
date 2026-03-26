@@ -57,101 +57,102 @@ class Ui_MainWindow(object):
         self.Info = QtWidgets.QWidget()
         self.Info.setObjectName("Info")
         self.ContactInfo = QtWidgets.QGroupBox(self.Info)
-        self.ContactInfo.setGeometry(QtCore.QRect(220, 10, 341, 371))
+        self.ContactInfo.setGeometry(QtCore.QRect(120, 20, 571, 401))
         self.ContactInfo.setObjectName("ContactInfo")
         self.ParentName = QtWidgets.QLabel(self.ContactInfo)
-        self.ParentName.setGeometry(QtCore.QRect(10, 40, 91, 16))
+        self.ParentName.setGeometry(QtCore.QRect(20, 40, 141, 24))
         self.ParentName.setObjectName("ParentName")
         self.ParentNameE = QtWidgets.QLabel(self.ContactInfo)
-        self.ParentNameE.setGeometry(QtCore.QRect(100, 40, 7, 20))
+        self.ParentNameE.setGeometry(QtCore.QRect(250, 40, 281, 24))
         self.ParentNameE.setAutoFillBackground(True)
         self.ParentNameE.setText("")
         self.ParentNameE.setObjectName("ParentNameE")
         self.ChildName = QtWidgets.QLabel(self.ContactInfo)
-        self.ChildName.setGeometry(QtCore.QRect(10, 70, 81, 16))
+        self.ChildName.setGeometry(QtCore.QRect(20, 74, 141, 24))
         self.ChildName.setObjectName("ChildName")
         self.ChildNameE = QtWidgets.QLabel(self.ContactInfo)
-        self.ChildNameE.setGeometry(QtCore.QRect(80, 70, 0, 16))
+        self.ChildNameE.setGeometry(QtCore.QRect(250, 74, 281, 24))
         self.ChildNameE.setAutoFillBackground(True)
         self.ChildNameE.setText("")
         self.ChildNameE.setObjectName("ChildNameE")
         self.ChildAge = QtWidgets.QLabel(self.ContactInfo)
-        self.ChildAge.setGeometry(QtCore.QRect(10, 110, 71, 16))
+        self.ChildAge.setGeometry(QtCore.QRect(20, 108, 141, 24))
         self.ChildAge.setObjectName("ChildAge")
         self.ChildAgeE = QtWidgets.QLabel(self.ContactInfo)
-        self.ChildAgeE.setGeometry(QtCore.QRect(80, 110, 7, 20))
+        self.ChildAgeE.setGeometry(QtCore.QRect(250, 108, 281, 24))
         self.ChildAgeE.setAutoFillBackground(True)
         self.ChildAgeE.setText("")
         self.ChildAgeE.setObjectName("ChildAgeE")
         self.ChildGrade = QtWidgets.QLabel(self.ContactInfo)
-        self.ChildGrade.setGeometry(QtCore.QRect(110, 110, 91, 16))
+        self.ChildGrade.setGeometry(QtCore.QRect(20, 142, 141, 24))
         self.ChildGrade.setObjectName("ChildGrade")
         self.ChildGradeE = QtWidgets.QLabel(self.ContactInfo)
-        self.ChildGradeE.setGeometry(QtCore.QRect(190, 110, 7, 20))
+        self.ChildGradeE.setGeometry(QtCore.QRect(250, 142, 281, 24))
         self.ChildGradeE.setAutoFillBackground(True)
         self.ChildGradeE.setText("")
         self.ChildGradeE.setObjectName("ChildGradeE")
         self.ParentEmail = QtWidgets.QLabel(self.ContactInfo)
-        self.ParentEmail.setGeometry(QtCore.QRect(10, 150, 91, 16))
+        self.ParentEmail.setGeometry(QtCore.QRect(20, 176, 141, 24))
         self.ParentEmail.setObjectName("ParentEmail")
         self.ParentEmailE = QtWidgets.QLabel(self.ContactInfo)
-        self.ParentEmailE.setGeometry(QtCore.QRect(100, 150, 7, 20))
+        self.ParentEmailE.setGeometry(QtCore.QRect(250, 176, 281, 24))
         self.ParentEmailE.setAutoFillBackground(True)
         self.ParentEmailE.setText("")
         self.ParentEmailE.setObjectName("ParentEmailE")
         self.ParentNumber = QtWidgets.QLabel(self.ContactInfo)
-        self.ParentNumber.setGeometry(QtCore.QRect(10, 190, 111, 16))
+        self.ParentNumber.setGeometry(QtCore.QRect(20, 210, 151, 24))
         self.ParentNumber.setObjectName("ParentNumber")
         self.ParentNumberE = QtWidgets.QLabel(self.ContactInfo)
-        self.ParentNumberE.setGeometry(QtCore.QRect(110, 190, 7, 20))
+        self.ParentNumberE.setGeometry(QtCore.QRect(250, 210, 281, 24))
         self.ParentNumberE.setAutoFillBackground(True)
         self.ParentNumberE.setText("")
         self.ParentNumberE.setObjectName("ParentNumberE")
         self.SecondaryParentName = QtWidgets.QLabel(self.ContactInfo)
-        self.SecondaryParentName.setGeometry(QtCore.QRect(10, 230, 171, 16))
+        self.SecondaryParentName.setGeometry(QtCore.QRect(20, 244, 221, 24))
         self.SecondaryParentName.setObjectName("SecondaryParentName")
         self.SecondaryParentNameE = QtWidgets.QLabel(self.ContactInfo)
-        self.SecondaryParentNameE.setGeometry(QtCore.QRect(170, 230, 7, 20))
+        self.SecondaryParentNameE.setGeometry(QtCore.QRect(250, 244, 281, 24))
         self.SecondaryParentNameE.setAutoFillBackground(True)
         self.SecondaryParentNameE.setText("")
         self.SecondaryParentNameE.setObjectName("SecondaryParentNameE")
         self.SecondaryParentEmail = QtWidgets.QLabel(self.ContactInfo)
-        self.SecondaryParentEmail.setGeometry(QtCore.QRect(10, 270, 171, 16))
+        self.SecondaryParentEmail.setGeometry(QtCore.QRect(20, 278, 221, 24))
         self.SecondaryParentEmail.setObjectName("SecondaryParentEmail")
         self.SecondaryParentEmailE = QtWidgets.QLabel(self.ContactInfo)
-        self.SecondaryParentEmailE.setGeometry(QtCore.QRect(170, 270, 7, 20))
+        self.SecondaryParentEmailE.setGeometry(QtCore.QRect(250, 278, 281, 24))
         self.SecondaryParentEmailE.setAutoFillBackground(True)
         self.SecondaryParentEmailE.setText("")
         self.SecondaryParentEmailE.setObjectName("SecondaryParentEmailE")
         self.SecondaryParentNum = QtWidgets.QLabel(self.ContactInfo)
-        self.SecondaryParentNum.setGeometry(QtCore.QRect(10, 310, 181, 16))
+        self.SecondaryParentNum.setGeometry(QtCore.QRect(20, 312, 221, 24))
         self.SecondaryParentNum.setObjectName("SecondaryParentNum")
         self.SecondaryParentNumE = QtWidgets.QLabel(self.ContactInfo)
-        self.SecondaryParentNumE.setGeometry(QtCore.QRect(190, 310, 7, 20))
+        self.SecondaryParentNumE.setGeometry(QtCore.QRect(250, 312, 281, 24))
         self.SecondaryParentNumE.setAutoFillBackground(True)
         self.SecondaryParentNumE.setText("")
         self.SecondaryParentNumE.setObjectName("SecondaryParentNumE")
         self.FilledFrom = QtWidgets.QLabel(self.ContactInfo)
-        self.FilledFrom.setGeometry(QtCore.QRect(10, 340, 81, 16))
+        self.FilledFrom.setGeometry(QtCore.QRect(20, 346, 141, 24))
         self.FilledFrom.setObjectName("FilledFrom")
         self.FilledFromE = QtWidgets.QLabel(self.ContactInfo)
-        self.FilledFromE.setGeometry(QtCore.QRect(90, 340, 6, 16))
+        self.FilledFromE.setGeometry(QtCore.QRect(250, 346, 281, 24))
         self.FilledFromE.setAutoFillBackground(True)
         self.FilledFromE.setText("")
         self.FilledFromE.setObjectName("FilledFromE")
         self.Back = QtWidgets.QPushButton(self.Info)
-        self.Back.setGeometry(QtCore.QRect(90, 450, 81, 26))
+        self.Back.setGeometry(QtCore.QRect(120, 470, 81, 26))
         self.Back.setObjectName("Back")
+        self.Back.clicked.connect(self.back)
         self.SaveBT2 = QtWidgets.QPushButton(self.Info)
-        self.SaveBT2.setGeometry(QtCore.QRect(310, 450, 131, 26))
+        self.SaveBT2.setGeometry(QtCore.QRect(330, 470, 131, 26))
         self.SaveBT2.setObjectName("SaveBT2")
         self.SaveBT2.setEnabled(False)
         self.SaveBT1 = QtWidgets.QPushButton(self.Info)
-        self.SaveBT1.setGeometry(QtCore.QRect(560, 450, 121, 26))
+        self.SaveBT1.setGeometry(QtCore.QRect(560, 470, 121, 26))
         self.SaveBT1.setObjectName("SaveBT1")
         self.SaveBT1.setEnabled(False)
         self.SaveConfirm = QtWidgets.QLabel(self.Info)
-        self.SaveConfirm.setGeometry(QtCore.QRect(310, 390, 131, 20))
+        self.SaveConfirm.setGeometry(QtCore.QRect(330, 435, 241, 24))
         self.SaveConfirm.setStyleSheet("color: green;")
         self.SaveConfirm.setObjectName("SaveConfirm")
         self.Scereens.addWidget(self.Info)
@@ -166,24 +167,33 @@ class Ui_MainWindow(object):
         self.ConTitle.setAutoFillBackground(False)
         self.ConTitle.setObjectName("ConTitle")
         self.HelpNav = QtWidgets.QLabel(self.Contacts)
-        self.HelpNav.setGeometry(QtCore.QRect(240, 150, 341, 16))
+        self.HelpNav.setGeometry(QtCore.QRect(100, 500, 611, 16))
         self.HelpNav.setObjectName("HelpNav")
-        self.NameList = QtWidgets.QListWidget(self.Contacts)
-        self.NameList.setGeometry(QtCore.QRect(240, 300, 256, 192))
-        self.NameList.setObjectName("NameList")
-        self.NameList.itemClicked.connect(self.contactinfo)
-        self.StatusList = QtWidgets.QListWidget(self.Contacts)
-        self.StatusList.setGeometry(QtCore.QRect(490, 300, 91, 192))
-        self.StatusList.setObjectName("StatusList")
+        self.ContactsTable = QtWidgets.QTableWidget(self.Contacts)
+        self.ContactsTable.setGeometry(QtCore.QRect(110, 160, 591, 321))
+        self.ContactsTable.setColumnCount(3)
+        self.ContactsTable.setRowCount(0)
+        item = QtWidgets.QTableWidgetItem()
+        self.ContactsTable.setHorizontalHeaderItem(0, item)
+        item = QtWidgets.QTableWidgetItem()
+        self.ContactsTable.setHorizontalHeaderItem(1, item)
+        item = QtWidgets.QTableWidgetItem()
+        self.ContactsTable.setHorizontalHeaderItem(2, item)
+        self.ContactsTable.setObjectName("ContactsTable")
+        self.ContactsTable.setSelectionBehavior(QtWidgets.QAbstractItemView.SelectRows)
+        self.ContactsTable.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
+        self.ContactsTable.setSelectionMode(QtWidgets.QAbstractItemView.SingleSelection)
+        self.ContactsTable.verticalHeader().setVisible(False)
+        self.ContactsTable.cellClicked.connect(self.contactinfo)
         self.HelpS = QtWidgets.QLabel(self.Contacts)
-        self.HelpS.setGeometry(QtCore.QRect(240, 220, 341, 20))
+        self.HelpS.setGeometry(QtCore.QRect(100, 525, 611, 20))
         self.HelpS.setWordWrap(False)
         self.HelpS.setObjectName("HelpS")
         self.SearchE = QtWidgets.QLineEdit(self.Contacts)
-        self.SearchE.setGeometry(QtCore.QRect(240, 260, 251, 26))
+        self.SearchE.setGeometry(QtCore.QRect(200, 120, 321, 26))
         self.SearchE.setObjectName("SearchE")
         self.SearchBT = QtWidgets.QPushButton(self.Contacts)
-        self.SearchBT.setGeometry(QtCore.QRect(500, 260, 81, 26))
+        self.SearchBT.setGeometry(QtCore.QRect(530, 120, 81, 26))
         self.SearchBT.setObjectName("SearchBT")
         self.SearchBT.clicked.connect(self.search)
         self.Scereens.addWidget(self.Contacts)
@@ -195,14 +205,177 @@ class Ui_MainWindow(object):
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
+        self.setup_responsive_layouts()
+        self.set_default_label_font_size()
+        self.set_default_button_font_size()
 
         self.retranslateUi(MainWindow)
         self.Scereens.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-    def retranslateUi(self, MainWindow):*
+    def setup_responsive_layouts(self):
+        root_layout = QtWidgets.QVBoxLayout(self.centralwidget)
+        root_layout.setContentsMargins(0, 0, 0, 0)
+        root_layout.setSpacing(0)
+        root_layout.addWidget(self.Scereens)
+
+        self.setup_login_layout()
+        self.setup_info_layout()
+        self.setup_contacts_layout()
+
+    def setup_login_layout(self):
+        login_layout = QtWidgets.QVBoxLayout(self.Login)
+        login_layout.setContentsMargins(160, 40, 160, 40)
+        login_layout.setSpacing(12)
+        login_layout.addStretch()
+        login_layout.addWidget(self.LogTitle, alignment=QtCore.Qt.AlignHCenter)
+        login_layout.addSpacing(8)
+        login_layout.addWidget(self.Username)
+        login_layout.addWidget(self.UsernameE)
+        login_layout.addWidget(self.Password)
+        login_layout.addWidget(self.PasswordE)
+        login_layout.addWidget(self.LogBT, alignment=QtCore.Qt.AlignHCenter)
+        login_layout.addWidget(self.LogError, alignment=QtCore.Qt.AlignHCenter)
+        login_layout.addStretch()
+
+    def setup_info_layout(self):
+        info_layout = QtWidgets.QVBoxLayout(self.Info)
+        info_layout.setContentsMargins(60, 16, 60, 16)
+        info_layout.setSpacing(10)
+
+        form_layout = QtWidgets.QFormLayout(self.ContactInfo)
+        form_layout.setContentsMargins(20, 30, 20, 20)
+        form_layout.setHorizontalSpacing(22)
+        form_layout.setVerticalSpacing(10)
+        self.contact_form_layout = form_layout
+        form_layout.addRow(self.ParentName, self.ParentNameE)
+        form_layout.addRow(self.ChildName, self.ChildNameE)
+        form_layout.addRow(self.ChildAge, self.ChildAgeE)
+        form_layout.addRow(self.ChildGrade, self.ChildGradeE)
+        form_layout.addRow(self.ParentEmail, self.ParentEmailE)
+        form_layout.addRow(self.ParentNumber, self.ParentNumberE)
+        form_layout.addRow(self.SecondaryParentName, self.SecondaryParentNameE)
+        form_layout.addRow(self.SecondaryParentEmail, self.SecondaryParentEmailE)
+        form_layout.addRow(self.SecondaryParentNum, self.SecondaryParentNumE)
+        form_layout.addRow(self.FilledFrom, self.FilledFromE)
+
+        for value_label in (
+            self.ParentNameE,
+            self.ChildNameE,
+            self.ChildAgeE,
+            self.ChildGradeE,
+            self.ParentEmailE,
+            self.ParentNumberE,
+            self.SecondaryParentNameE,
+            self.SecondaryParentEmailE,
+            self.SecondaryParentNumE,
+            self.FilledFromE,
+        ):
+            value_label.setWordWrap(True)
+
+        self.contact_name_labels = (
+            self.ParentName,
+            self.ChildName,
+            self.ChildAge,
+            self.ChildGrade,
+            self.ParentEmail,
+            self.ParentNumber,
+            self.SecondaryParentName,
+            self.SecondaryParentEmail,
+            self.SecondaryParentNum,
+            self.FilledFrom,
+        )
+        self.contact_value_labels = (
+            self.ParentNameE,
+            self.ChildNameE,
+            self.ChildAgeE,
+            self.ChildGradeE,
+            self.ParentEmailE,
+            self.ParentNumberE,
+            self.SecondaryParentNameE,
+            self.SecondaryParentEmailE,
+            self.SecondaryParentNumE,
+            self.FilledFromE,
+        )
+
+        info_layout.addWidget(self.ContactInfo, stretch=1)
+        info_layout.addWidget(self.SaveConfirm, alignment=QtCore.Qt.AlignHCenter)
+
+        info_buttons_layout = QtWidgets.QHBoxLayout()
+        info_buttons_layout.addWidget(self.Back)
+        info_buttons_layout.addStretch()
+        info_buttons_layout.addWidget(self.SaveBT2)
+        info_buttons_layout.addSpacing(10)
+        info_buttons_layout.addWidget(self.SaveBT1)
+        info_layout.addLayout(info_buttons_layout)
+
+        self._original_contactinfo_resize_event = self.ContactInfo.resizeEvent
+        self.ContactInfo.resizeEvent = self.contact_info_resize_event
+        self.scale_contact_info_labels()
+
+    def contact_info_resize_event(self, event):
+        self._original_contactinfo_resize_event(event)
+        self.scale_contact_info_labels()
+
+    def scale_contact_info_labels(self):
+        contact_height = max(self.ContactInfo.height(), 1)
+        contact_width = max(self.ContactInfo.width(), 1)
+
+        for label in self.contact_name_labels:
+            font = label.font()
+            font.setPointSize(11)
+            label.setFont(font)
+            label.setMinimumWidth(max(150, int(contact_width * 0.32)))
+
+        for label in self.contact_value_labels:
+            font = label.font()
+            font.setPointSize(11)
+            label.setFont(font)
+
+        self.contact_form_layout.setHorizontalSpacing(max(18, min(46, contact_width // 14)))
+        self.contact_form_layout.setVerticalSpacing(max(8, min(34, contact_height // 20)))
+
+        for button in (self.Back, self.SaveBT1, self.SaveBT2):
+            font = button.font()
+            font.setPointSize(11)
+            button.setFont(font)
+
+    def setup_contacts_layout(self):
+        contacts_layout = QtWidgets.QVBoxLayout(self.Contacts)
+        contacts_layout.setContentsMargins(40, 16, 40, 12)
+        contacts_layout.setSpacing(10)
+
+        contacts_layout.addWidget(self.ConTitle, alignment=QtCore.Qt.AlignHCenter)
+
+        search_layout = QtWidgets.QHBoxLayout()
+        search_layout.addStretch()
+        search_layout.addWidget(self.SearchE)
+        search_layout.addWidget(self.SearchBT)
+        search_layout.addStretch()
+        contacts_layout.addLayout(search_layout)
+
+        self.ContactsTable.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        contacts_layout.addWidget(self.ContactsTable, stretch=1)
+        contacts_layout.addWidget(self.HelpNav, alignment=QtCore.Qt.AlignHCenter)
+        contacts_layout.addWidget(self.HelpS, alignment=QtCore.Qt.AlignHCenter)
+
+    def set_default_label_font_size(self):
+        for label in self.centralwidget.findChildren(QtWidgets.QLabel):
+            if label.objectName() in ("LogTitle", "ConTitle"):
+                continue
+            font = label.font()
+            font.setPointSize(11)
+            label.setFont(font)
+
+    def set_default_button_font_size(self):
+        for button in self.centralwidget.findChildren(QtWidgets.QPushButton):
+            font = button.font()
+            font.setPointSize(11)
+            button.setFont(font)
+
+    def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "CRM for NEXT Goa"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "CRM for schools"))
         self.LogTitle.setText(_translate("MainWindow", "Login"))
         self.Username.setText(_translate("MainWindow", "Username:"))
         self.Password.setText(_translate("MainWindow", "Password:"))
@@ -222,27 +395,34 @@ class Ui_MainWindow(object):
         self.SaveBT2.setText(_translate("MainWindow", "Save to continued"))
         self.SaveBT1.setText(_translate("MainWindow", "Save to rejected"))
         self.ConTitle.setText(_translate("MainWindow", "You are now in: pending"))
-        self.HelpNav.setText(_translate("MainWindow", "Use the menue to travel between scereens or use it to log out"))
-        self.HelpS.setText(_translate("MainWindow", "You can search for pending contcts with name, phone number, or email"))
+        self.HelpNav.setText(_translate("MainWindow", "Use the menu to travel between screens or use it to log out"))
+        self.HelpS.setText(_translate("MainWindow", "You can search for pending contacts with name, phone number, or email"))
+        item = self.ContactsTable.horizontalHeaderItem(0)
+        item.setText(_translate("MainWindow", "Parent name"))
+        item = self.ContactsTable.horizontalHeaderItem(1)
+        item.setText(_translate("MainWindow", "Child name"))
+        item = self.ContactsTable.horizontalHeaderItem(2)
+        item.setText(_translate("MainWindow", "Status"))
         self.SearchBT.setText(_translate("MainWindow", "Search"))
         self.update()
 
 
     def update(self):
-        self.LogError.adjustSize()
-        self.ParentNameE.adjustSize()
-        self.ChildNameE.adjustSize()
-        self.ChildAgeE.adjustSize()
-        self.ChildGradeE.adjustSize()
-        self.ParentEmailE.adjustSize()
-        self.ParentNumberE.adjustSize()
-        self.SecondaryParentNameE.adjustSize()
-        self.SecondaryParentEmailE.adjustSize()
-        self.SecondaryParentNumE.adjustSize()
-        self.FilledFromE.adjustSize()
-        self.ConTitle.adjustSize()
-        self.HelpNav.adjustSize()
-        self.HelpS.adjustSize()
+        for label in self.centralwidget.findChildren(QtWidgets.QLabel):
+            if label.text():
+                label.adjustSize()
+        self.ContactsTable.horizontalHeader().setSectionResizeMode(QtWidgets.QHeaderView.Stretch)
+
+
+    def add_contact_row_to_table(self, row_data):
+        row_index = self.ContactsTable.rowCount()
+        self.ContactsTable.insertRow(row_index)
+        parent_name = str(row_data[1]) if len(row_data) > 1 else ""
+        child_name = str(row_data[2]) if len(row_data) > 2 else ""
+        row_status = str(row_data[11]) if len(row_data) > 11 else ""
+        self.ContactsTable.setItem(row_index, 0, QtWidgets.QTableWidgetItem(parent_name))
+        self.ContactsTable.setItem(row_index, 1, QtWidgets.QTableWidgetItem(child_name))
+        self.ContactsTable.setItem(row_index, 2, QtWidgets.QTableWidgetItem(row_status))
 
 
     def login(self):
@@ -272,22 +452,19 @@ class Ui_MainWindow(object):
         Logout=self.menubar.addAction("Logout")
         Logout.triggered.connect(self.logout)
         self.update()
-        self.NameList.clear()
-        self.StatusList.clear()
+        self.ContactsTable.setRowCount(0)
         self.visible_rows = []
         values=Database_control.get_raw_data(Database_control.get_sheet_vals(Database_control.sheet_id))
         for i in range(len(values)):
             row_status = values[i][11] if len(values[i]) > 11 else ""
             if str(row_status).strip().lower()=="pending":
-                self.NameList.addItem(values[i][1])
-                self.StatusList.addItem("pending")
+                self.add_contact_row_to_table(values[i])
                 self.visible_rows.append((i + 2, values[i]))
             elif row_status in (None, ""):
                 Database_control.update_status(Database_control.sheet_id, i+2, 12, "pending")
                 if len(values[i]) > 11:
                     values[i][11] = "pending"
-                self.NameList.addItem(values[i][1])
-                self.StatusList.addItem("pending")
+                self.add_contact_row_to_table(values[i])
                 self.visible_rows.append((i + 2, values[i]))
         status="pending"
 
@@ -307,15 +484,13 @@ class Ui_MainWindow(object):
         Logout=self.menubar.addAction("Logout")
         Logout.triggered.connect(self.logout)
         self.update()
-        self.NameList.clear()
-        self.StatusList.clear()
+        self.ContactsTable.setRowCount(0)
         self.visible_rows = []
         values=Database_control.get_raw_data(Database_control.get_sheet_vals(Database_control.sheet_id))
         for i in range(len(values)):
-            if values[i][11]=="continued":
-                self.NameList.addItem(values[i][1])
-                self.StatusList.addItem(values[i][11])
-            self.visible_rows.append((i + 2, values[i]))
+            if len(values[i]) > 11 and values[i][11]=="continued":
+                self.add_contact_row_to_table(values[i])
+                self.visible_rows.append((i + 2, values[i]))
         status="continued"
 
     def Rejected(self):
@@ -334,40 +509,38 @@ class Ui_MainWindow(object):
         Logout=self.menubar.addAction("Logout")
         Logout.triggered.connect(self.logout)
         self.update()
-        self.NameList.clear()
-        self.StatusList.clear()
+        self.ContactsTable.setRowCount(0)
         self.visible_rows = []
         values=Database_control.get_raw_data(Database_control.get_sheet_vals(Database_control.sheet_id))
         for i in range(len(values)):
-            if values[i][11]=="rejected":
-                self.NameList.addItem(values[i][1])
-                self.StatusList.addItem(values[i][11])
-            self.visible_rows.append((i + 2, values[i]))
+            if len(values[i]) > 11 and values[i][11]=="rejected":
+                self.add_contact_row_to_table(values[i])
+                self.visible_rows.append((i + 2, values[i]))
         status="rejected"
 
     def search(self):
         global values, status
-        self.NameList.clear()
-        self.StatusList.clear()
+        self.ContactsTable.setRowCount(0)
         self.visible_rows = []
         search_text = self.SearchE.text()
         for i in range(len(values)):
-            if search_text in str(values[i][1]) or \
-            search_text in str(values[i][2]) or \
-            search_text in str(values[i][5]) or \
-            search_text in str(values[i][6]) or \
-            search_text in str(values[i][7]) or \
-            search_text in str(values[i][8]) or \
-            search_text in str(values[i][9]):
+            if len(values[i]) > 11 and (
+                search_text in str(values[i][1]) or
+                search_text in str(values[i][2]) or
+                search_text in str(values[i][5]) or
+                search_text in str(values[i][6]) or
+                search_text in str(values[i][7]) or
+                search_text in str(values[i][8]) or
+                search_text in str(values[i][9])
+            ):
                 if values[i][11]==status:
-                    self.NameList.addItem(values[i][1])
-                    self.StatusList.addItem(values[i][11])
+                    self.add_contact_row_to_table(values[i])
                     self.visible_rows.append((i + 2, values[i]))
 
-    def contactinfo(self):
+    def contactinfo(self, row=None, column=None):
         global values, status
         self.menubar.clear()
-        i=self.NameList.currentRow()
+        i = row if row is not None else self.ContactsTable.currentRow()
         if i < 0 or i >= len(self.visible_rows):
             return
         self.Scereens.setCurrentIndex(1)
@@ -408,6 +581,12 @@ class Ui_MainWindow(object):
             self.SaveBT1.setEnabled(False)
 
     def back(self):
+        if status=="pending":
+            self.pending()
+        elif status=="continued":
+            self.continued()
+        elif status=="rejected":
+            self.Rejected()
         self.Scereens.setCurrentIndex(2)
 
 
@@ -436,6 +615,7 @@ class Ui_MainWindow(object):
                 QtCore.QTimer.singleShot(1000, lambda: self.finish_save_and_return(self.pending))
             elif status=="continued":
                 QtCore.QTimer.singleShot(1000, lambda: self.finish_save_and_return(self.continued))
+    
     def logout(self):
         self.Scereens.setCurrentIndex(0)
         self.menubar.clear()
