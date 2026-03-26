@@ -1,2 +1,0 @@
-# CRM-for-NEXT-Goa
-
